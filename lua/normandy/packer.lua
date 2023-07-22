@@ -12,8 +12,9 @@ use {
 
 use({ 'rose-pine/neovim', as = 'rose-pine' })
 
-vim.cmd('colorscheme rose-pine')
 
+use({ 'lunarvim/horizon.nvim', as ='horizon' })
+vim.cmd('colorscheme horizon')
 use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
 use('nvim-treesitter/playground')
@@ -23,6 +24,9 @@ use('theprimeagen/harpoon')
 use('mbbill/undotree')
 
 use('tpope/vim-fugitive')
+
+use('nvim-tree/nvim-tree.lua')
+use('nvim-tree/nvim-web-devicons')
 end)
 
 
