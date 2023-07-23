@@ -5,4 +5,5 @@ require("normandy.undotree")
 require("normandy.tree")
 require("normandy.lsp")
 require("normandy.fugitive")
+require("normandy.discord")
 

@@ -24,6 +24,7 @@ use('theprimeagen/harpoon')
 use('mbbill/undotree')
 
 use('tpope/vim-fugitive')
+use('tpope/vim-surround')
 
 use('github/copilot.vim')
 use('nvim-tree/nvim-tree.lua')
@@ -48,6 +49,8 @@ use {
     {'L3MON4D3/LuaSnip'},     -- Required
   }
 }
+
+use 'andweeb/presence.nvim'
 end)
 
 
