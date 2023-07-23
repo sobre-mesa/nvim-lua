@@ -25,6 +25,7 @@ use('mbbill/undotree')
 
 use('tpope/vim-fugitive')
 
+use('github/copilot.vim')
 use('nvim-tree/nvim-tree.lua')
 use('nvim-tree/nvim-web-devicons')
 use {
