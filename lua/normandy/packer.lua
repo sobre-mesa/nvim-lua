@@ -20,6 +20,9 @@ return require('packer').startup(function(use)
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
 
+  use('nvim-tree/nvim-tree.lua')
+  use('nvim-tree/nvim-web-devicons')
+
   use {
   	'VonHeikemen/lsp-zero.nvim',
   	branch = 'v2.x',
